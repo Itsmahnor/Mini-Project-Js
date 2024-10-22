@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.Container{
+    height:100vh;
+    width:100vw;
+    background-color: #03396c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container1{
+  height:100vh;
+  width:100vw;
+  background-color: #5d6a76;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Row {
+    height:85vh;
+    width:85vw;
+    background-color: white;
+}
+.Div-1 {
+  height: 10vh;
+    width:85vw;
+    background-color: #6497b1;
+    display: flex;
+   
+    justify-content: space-around;
+
+}
+#start{
+    margin-left: 2rem;
+}
+#end{
+    margin-right: 2rem;
+}
+.Div-2 {
+    height: 70vh;
+      width:85vw;
+      background-color:#b3cde0;
+      display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.buttons{
+    height:60vh;
+   width:50vw;
+    display: flex;
+   /* border: 1px solid black; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:1rem;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+  .boxes p{
+    background-color: aliceblue;
+    color: black;
+  text-align: center;
+ 
+
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+  .box{
+    background-color: aliceblue;
+    padding: 1.5rem;
+    border-radius: 50%;
+   
+  }
+  .box:hover{
+    background-color:#03396c;
+    color:white;
+  }
+
+.hide{
+  width:100vw;
+  height:100vh;
+  background-color: #6497b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+
+}
+
+.Final{
+  display: none;
+}
